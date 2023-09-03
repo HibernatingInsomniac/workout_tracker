@@ -25,6 +25,23 @@
       </property>
       <layout class="QGridLayout" name="gridLayout_2">
        <item row="0" column="0">
+        <widget class="QPushButton" name="pbLocateSl3">
+         <property name="text">
+          <string>Locate sl3</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="leSl3Location"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QPushButton" name="pbAddWorkout">
+         <property name="text">
+          <string>Add Workout</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
         <widget class="QPushButton" name="pbClearTable">
          <property name="text">
           <string>Clear</string>

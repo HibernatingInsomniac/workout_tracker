@@ -13,7 +13,14 @@ class UI(QMainWindow):
         for i in range(5):
             print(i)
             self.twDataView.setItem(0,i,QTableWidgetItem(str(i)))
+        self.pbLocateSl3.clicked.connect(self.locate_sl3)
         self.show()
+        
+    def locate_sl3(self):
+        print("Hello there!")
+        filepath = QFileDialog.getOpenFileName(self)
+        self.leSl3Location.setText(filepath[0])
+        
 
 app = QApplication(sys.argv)
 window = UI()
